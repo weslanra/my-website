@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Fonts
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Italic.ttf") format('truetype');
+  font-weight: normal;
+  font-style: italic; /* Define a variação como itálica */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Thin.ttf") format('truetype');
+  font-weight: 100; /* Font weight for "Thin" */
+  font-style: normal; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-ThinItalic.ttf") format('truetype');
+  font-weight: 100; /* Font weight for "Thin" */
+  font-style: italic; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Light.ttf") format('truetype');
+  font-weight: 300; /* Font weight for "Light" */
+  font-style: normal; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-LightItalic.ttf") format('truetype');
+  font-weight: 300; /* Font weight for "Light" */
+  font-style: italic; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Medium.ttf") format('truetype');
+  font-weight: 500; /* Font weight for "Medium" */
+  font-style: normal; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-MediumItalic.ttf") format('truetype');
+  font-weight: 500; /* Font weight for "Medium" */
+  font-style: italic; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Bold.ttf") format('truetype');
+  font-weight: 700; /* Font weight for "Bold" */
+  font-style: normal; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-BoldItalic.ttf") format('truetype');
+  font-weight: 700; /* Font weight for "Bold" */
+  font-style: italic; /* Pode ser normal ou italic, dependendo da variação */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Black.ttf") format('truetype');
+  font-weight: 900; /* Font weight for "Black" */
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-BlackItalic.ttf") format('truetype');
+  font-weight: 900; /* Font weight for "Black" */
+  font-style: italic;
+}
+
+body * {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
